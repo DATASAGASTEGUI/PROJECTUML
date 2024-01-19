@@ -1,0 +1,16 @@
+@startuml
+
+class Universidad {
+   -nombre:String
+   -estudiantes_al:List<Estudiante>
+}
+
+class Estudiante {
+   -idEstudiante:String
+   -nombre:String
+   -carrera:String
+}
+
+Universidad *-- Estudiante
+
+@enduml

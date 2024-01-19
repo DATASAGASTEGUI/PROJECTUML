@@ -1,0 +1,10 @@
+1. Grabar en un archivo las letras en mayuscula del
+   alfabeto ingles incluir también la Ñ.
+
+2. Grabar en un archivo 5 letras en mayuscula aleatorias
+   del alfabeto ingles.
+
+3. Grabar en un archivo 10 números aleatorios de un dado.
+
+
+

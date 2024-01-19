@@ -1,0 +1,16 @@
+@startuml
+   hide empty methods
+   hide members
+
+   Trabajador <|-- Secretaria
+   Trabajador <|-- Conserje
+
+   Universidad *-- Departamento
+
+   Biblioteca o-- Libro
+
+   Estudiante - Curso
+   (Estudiante, Curso) .. Estudiante_x_Curso
+
+   Empleado -- Cuenta
+@enduml

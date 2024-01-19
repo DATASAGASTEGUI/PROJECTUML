@@ -1,0 +1,32 @@
+@startuml
+
+class Trabajador {
+   -idTrabajador:String
+   -nombre:String
+   -apellido:String
+   +salario():double
+}
+
+class TrabajadorTipo1 {
+   -salarioSemanalFijo:double
+}
+
+class TrabajadorTipo2 {
+   -salarioBase:double
+   -ventaRealizada:double
+}
+
+class TrabajadorTipo3 {
+   -numeroArticulosProducidos:int
+}
+
+class TrabajadorTipo4 {
+   -numeroHorasTrabajadas:int
+   -numeroHorasExtras:int
+}
+
+Trabajador <|-- TrabajadorTipo1 : es
+Trabajador <|-- TrabajadorTipo2 : es
+Trabajador <|-- TrabajadorTipo3 : es
+Trabajador <|-- TrabajadorTipo4 : es
+@enduml
